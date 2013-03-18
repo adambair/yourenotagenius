@@ -1,4 +1,4 @@
-yourenotagenious
+yourenotagenius
 ======
 
-You're not. A genious.
+You're not. A genius.
