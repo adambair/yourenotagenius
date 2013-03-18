@@ -33,7 +33,7 @@ namespace :deploy do
   end
   
   task :setup_config, roles: :app do
-    sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
+    run "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
   end
   after "deploy:setup", "deploy:setup_config"
 
